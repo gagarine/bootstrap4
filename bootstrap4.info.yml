@@ -1,0 +1,20 @@
+name: Bootstrap 4
+type: theme
+description: 'Bootstrap 4 theme with minimal dependency'
+core: 8.x
+php: 7.1
+libraries:
+  - bootstrap4/global-styling
+base theme: stable
+logo: images/logo.png
+regions:
+  header: Header
+  main_navigation: 'Main Navigation'
+  second_navigation: 'Second Navigation'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  breadcrumb: readcrumb

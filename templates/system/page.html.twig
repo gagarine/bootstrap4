@@ -1,0 +1,90 @@
+<!-- =============================== header ===============================-->
+{% set header_attribute = create_attribute() %}
+{%
+  set header_classes = [
+    'top-header',
+    'navbar',
+    'navbar-expand-lg',
+    'header-menu',
+    'navbar-light',
+    'bg-light'
+  ]
+%}
+
+{%
+    set content_classes = [
+      page.sidebar_first ? 'col-md-9',
+      page.sidebar_first is empty ? 'col-md-12'
+    ]
+%}
+
+<nav {{ header_attribute.addClass(header_classes) }} >
+  <div class="container">
+
+    {% if page.header %}
+      {{ page.header }}
+    {% endif %}
+    <!-- end of navbar-brand -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-group" aria-controls="navigation-group" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- end of navbar-toggler -->
+    <div class="collapse navbar-collapse" id="navigation-group">
+
+      <div class="navbar-nav mr-auto">
+        {% if page.main_navigation %}
+          {{ page.main_navigation }}
+        {% endif %}
+      </div>
+
+      <div class="my-2 my-lg-0">
+
+        {% if page.second_navigation %}
+          {{ page.second_navigation }}
+        {% endif %}
+
+      </div>
+
+      <!-- end of navbar-right -->
+    </div>
+    <!-- end of collapse -->
+  </div>
+  <!-- end of container -->
+</nav>
+<!-- end of nav -->
+
+
+<section class="content-wrapper">
+  <div class="container">
+    <div class="row">
+
+      {% if page.sidebar_first %}
+        <div class="col-md-3 sidebar">
+          {% block sidebar_first %}
+            <aside role="complementary">
+              {{ page.sidebar_first }}
+            </aside>
+          {% endblock %}
+        </div>
+      {% endif %}
+
+      <div {{ content_attributes.addClass(content_classes) }}>
+        {{ page.content }}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================== footer ===============================-->
+
+<footer class="page-footer bg-light">
+
+  {% if page.footer %}
+    {{ page.footer }}
+  {% endif %}
+
+
+</footer>
+<!-- end of page-footer -->

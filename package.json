@@ -1,0 +1,19 @@
+{
+  "name": "DrupalBootstrap4",
+  "version": "1.0.0",
+  "description": "Minimal Drupal Theme using Bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/style.scss dist/css/style.css",
+    "sass:watch": "sass --watch dist/scss/style.scss css/style.css",
+    "start": "npm run sass:watch",
+    "js-vendors": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.js dist/js/",
+    "build": "npm run sass && npm run js-vendors"
+  },
+  "author": "Simon Perdrisat",
+  "homepage": "https://gitlab.com/oxima/club.inovacomm.ch#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "sass": "^1.17.3"
+  }
+}
