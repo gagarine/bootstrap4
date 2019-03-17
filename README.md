@@ -2,6 +2,13 @@ This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
 No settings. No paralaxe. Minimal dependencies. It works.
 
+# What works exaclty?
+All the basic setup is done. In fact it's mostly what I want.
+
+The menu bar (logo, main and secondary menu) is working great out of the box.
+
+Forms are looking ok.
+
 # How-to use it
 
 - Download
