@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass scss/style.scss dist/css/style.css",
-    "sass:watch": "sass --watch dist/scss/style.scss css/style.css",
+    "sass:watch": "sass --watch scss/style.scss dist/css/style.css",
     "start": "npm run sass:watch",
     "js-vendors": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.js dist/js/",
     "build": "npm run sass && npm run js-vendors"
