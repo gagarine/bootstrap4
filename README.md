@@ -1,3 +1,4 @@
+# Bootstrap 4 theme for Drupal 8
 This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
 No settings. No paralaxe. Minimal dependencies. It works.
