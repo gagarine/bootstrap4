@@ -16,7 +16,7 @@ This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
 3) activate the theme
 
-## Working with this themes
+## Working with this theme
 
 You can read the package.json file to see a list of command, but really you certainly ony need 'npm run watch'.
 
