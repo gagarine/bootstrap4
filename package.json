@@ -13,7 +13,7 @@
   "author": "Simon Perdrisat",
   "homepage": "https://gitlab.com/oxima/club.inovacomm.ch#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "sass": "^1.17.3"
+    "bootstrap": "^4.4.1",
+    "sass": "^1.24.5"
   }
 }
