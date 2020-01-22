@@ -2,6 +2,13 @@
   "name": "DrupalBootstrap4",
   "version": "1.0.0",
   "description": "Minimal Drupal Theme using Bootstrap 4",
+  "type": "drupal-theme",
+  "license": "GPL-2.0",
+  "author": "Simon Perdrisat",
+  "homepage": "https://github.com/gagarine/bootstrap4",
+  "support": {
+    "issues": "https://github.com/gagarine/bootstrap4/issues"
+  },
   "main": "index.js",
   "scripts": {
     "sass": "sass scss/style.scss dist/css/style.css",
@@ -10,8 +17,6 @@
     "js-vendors": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.js dist/js/",
     "build": "npm run sass && npm run js-vendors"
   },
-  "author": "Simon Perdrisat",
-  "homepage": "https://gitlab.com/oxima/club.inovacomm.ch#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "sass": "^1.24.5"
