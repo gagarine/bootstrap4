@@ -2,7 +2,7 @@
 This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
 - Settings free! (if you want to load bootstrap differently, just edit the template).
-- Minimal dependencies (bootstrap and sass)
+- Minimal dependencies (only bootstrap and sass)
 - Works out of the box
 - Simple.
 
@@ -10,7 +10,7 @@ This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
 1) Download the theme and add it in your Drupal themes folder.
 
-2) Install dependencies (boostrap and sass)
+2) Install dependencies (from inside the theme folder -> yoursite/themes/bootstrap4/)
  
   `npm install`
 
@@ -22,9 +22,9 @@ This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
 ## Working with this theme
 
-You can read the package.json file to see a list of command, but really you certainly ony need 'npm run watch'.
+You can read the package.json file to see a list of command, but really you certainly ony need `npm run watch`.
 
-To customize style and bootstrap edit the file in scss/styles.scss
+To customize style and bootstrap edit the file in `scss/styles.scss`
 
 ## Contribution
 
