@@ -11,12 +11,14 @@ This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 1) Download the theme and add it in your Drupal themes folder.
 
 2) Install dependencies (boostrap and sass)
-- 'npm install'
+ 
+  `npm install`
 
-2) Build the theme (from inside the theme folder -> yoursite/themes/bootstrap4/):
-- 'npm run build'
+3) Build the theme (from inside the theme folder -> yoursite/themes/bootstrap4/):
 
-3) activate the theme in drupal
+ `npm run build`
+
+4) activate the theme in drupal
 
 ## Working with this theme
 
