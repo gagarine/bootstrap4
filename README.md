@@ -18,7 +18,7 @@ This is a minimal drupal theme to integrate Bootstrap 4 in Drupal 8.
 
  `npm run build`
 
-4) activate the theme in drupal
+4) Activate the theme in Drupal
 
 ## Working with this theme
 
